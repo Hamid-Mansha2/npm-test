@@ -6,4 +6,4 @@ os: linux
 dist: jammy
 
 install:
-  - npm install --verbosex
+  - npm install --verbose
