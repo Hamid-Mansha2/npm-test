@@ -1,0 +1,14 @@
+{
+  "name": "travis-npm-test",
+  "version": "1.0.0",
+  "description": "Test Travis CI npm install issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.0",
+    "nanoid": "^4.0.0",
+    "docsy": "github:google/docsy"
+  }
+}
