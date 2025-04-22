@@ -6,4 +6,9 @@ os: linux
 dist: jammy
 
 install:
-  - npm install --verbose
+  - echo "Installing npm packages..."
+  - npm install --verbose &
+
+  # Keep-alive output loop so Travis doesn't timeout
+  - while sleep 30; do echo "Still installing..."; done &
+  - wait
